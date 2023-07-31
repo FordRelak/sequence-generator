@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceGenerator", "SequenceGenerator\SequenceGenerator.csproj", "{A4F22F59-4BDD-4B4D-8EF8-BCEB07D10B75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceGeneratorConsoleClient", "SequenceGeneratorConsoleClient\SequenceGeneratorConsoleClient.csproj", "{02B38A34-0341-45A9-A517-9F9D1E91D323}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{B967266B-37CA-4C49-88DF-887AAB94D297}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceGenerator.Storage", "SequenceGenerator.Storage\SequenceGenerator.Storage.csproj", "{C6EA492C-67F5-4827-9468-DC6036290032}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceGenerator.Storage.MongoDB", "SequenceGenerator.Storage.MongoDB\SequenceGenerator.Storage.MongoDB.csproj", "{6D4EC1FC-3303-469A-92D8-98D2A25AFAF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B008256-6575-4CBF-8C21-9745F3E7149A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4F22F59-4BDD-4B4D-8EF8-BCEB07D10B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F22F59-4BDD-4B4D-8EF8-BCEB07D10B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F22F59-4BDD-4B4D-8EF8-BCEB07D10B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F22F59-4BDD-4B4D-8EF8-BCEB07D10B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B38A34-0341-45A9-A517-9F9D1E91D323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B38A34-0341-45A9-A517-9F9D1E91D323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B38A34-0341-45A9-A517-9F9D1E91D323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B38A34-0341-45A9-A517-9F9D1E91D323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B967266B-37CA-4C49-88DF-887AAB94D297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B967266B-37CA-4C49-88DF-887AAB94D297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B967266B-37CA-4C49-88DF-887AAB94D297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B967266B-37CA-4C49-88DF-887AAB94D297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6EA492C-67F5-4827-9468-DC6036290032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6EA492C-67F5-4827-9468-DC6036290032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6EA492C-67F5-4827-9468-DC6036290032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6EA492C-67F5-4827-9468-DC6036290032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4EC1FC-3303-469A-92D8-98D2A25AFAF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4EC1FC-3303-469A-92D8-98D2A25AFAF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4EC1FC-3303-469A-92D8-98D2A25AFAF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4EC1FC-3303-469A-92D8-98D2A25AFAF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {166C6CCF-7799-4683-82C8-5B7F5D8BDD19}
+	EndGlobalSection
+EndGlobal

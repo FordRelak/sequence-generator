@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SequenceGenerator.Storage.MongoDB\SequenceGenerator.Storage.MongoDB.csproj" />
+    <ProjectReference Include="..\SequenceGenerator.Storage\SequenceGenerator.Storage.csproj" />
+    <ProjectReference Include="..\SequenceGenerator\SequenceGenerator.csproj" />
+  </ItemGroup>
+
+</Project>
